@@ -5,10 +5,10 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, ubuntu-20.04, ubuntu-18.04]
+        os: [ubuntu-latest, ubuntu-20.04]
     steps:
       - name: echo a string
-        run: echo "Hello world"
+        run: echoo "Hello world"
       - name: multiline script
         run: |
           python3 -V
