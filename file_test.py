@@ -6,7 +6,7 @@ def test_calc_addition():
 
 def test_calc_substraction():
     output =2-4
-    assert ouput ==-2
+    assert output ==-2
 
 def test_calc_multiply():
     output=2*4
